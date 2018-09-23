@@ -90,7 +90,7 @@ These datasets are the same as other paper provided. Readers can directly use th
 
 ## Performance
 
-We provide a pretrained RDN x4 model trained on BSDS200, T91, and General-100 datasets. All images are cropped to 96x96 subimages witn non-overlap. Following previous methods, super-resolution is applied in RGB channels. Thus, the output of the network is also an color image.
+We provide a pretrained RDN x4 model trained on BSDS200, T91, and General-100 datasets. All images are cropped to 96x96 subimages witn non-overlap. Following previous methods, super-resolution is applied on RGB channels. Thus, the output of the network is also a color image.
 
 
 **Note:** our results are not as good as those presented in paper. Hence, our code needs further improvement.
