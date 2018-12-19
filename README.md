@@ -88,6 +88,8 @@ These datasets are the same as other paper provided. Readers can directly use th
 
 **Readers can use 'Netscope' to visualize the network architecture**
 
+**Note: the conference paper mentioned above uses L1 loss layer and sub-pixel convolution layer, which are different from us.**
+
 ## Performance
 
 We provide a pretrained RDN x4 model trained on BSDS200, T91, and General-100 datasets. All images are cropped to 96x96 subimages witn non-overlap. Following previous methods, super-resolution is applied on RGB channels. Thus, the output of the network is also a color image.
